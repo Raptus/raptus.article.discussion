@@ -3,9 +3,9 @@ import os
 
 version = '1.0b1'
 
-setup(name='raptus.article.header',
+setup(name='raptus.article.discussion',
       version=version,
-      description="Provides header image support by integrating raptus.header in article",
+      description="raptus.article.discussion include plone.app.discussion in the raptus.article",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "MANUAL.txt")).read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
