@@ -6,7 +6,7 @@ version = '1.0b1'
 setup(name='raptus.article.discussion',
       version=version,
       description="raptus.article.discussion include plone.app.discussion in the raptus.article",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "MANUAL.txt")).read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
